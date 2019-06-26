@@ -62,9 +62,9 @@ var map = new ol.Map({
     overlays: [overlayPopup],
     layers: layersList,
     view: new ol.View({
-        extent: [1780810.000000, 5111630.000000, 1905820.000000, 5242220.000000], maxZoom: 11, minZoom: 2, projection: new ol.proj.Projection({
+        extent: [1815842.052900, 5153065.737104, 1851400.374154, 5186625.092102], maxZoom: 11, minZoom: 2, projection: new ol.proj.Projection({
             code: 'EPSG:3946',
-            extent: [1780810.000000, 5111630.000000, 1905820.000000, 5242220.000000],
+            extent: [1815842.052900, 5153065.737104, 1851400.374154, 5186625.092102],
             units: 'm'})
     })
 });
@@ -73,7 +73,7 @@ var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
 
     var searchLayer = new ol.SearchLayer({
-      layer: lyr_Voies_1,
+      layer: lyr_Voies_0,
       colName: 'nomvoie',
       zoom: 10,
       collapsed: true,
@@ -81,7 +81,7 @@ map.addControl(layerSwitcher);
     });
 
     map.addControl(searchLayer);
-map.getView().fit([1780810.000000, 5111630.000000, 1905820.000000, 5242220.000000], map.getSize());
+map.getView().fit([1815842.052900, 5153065.737104, 1851400.374154, 5186625.092102], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1

@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: calibri;
+    font-family: times new roman;
     font-size: 12px;
 }
 
@@ -27,18 +27,19 @@ th, td {
     filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid #cccccc;
+    border: 2px solid #afafaf;
     bottom: 12px;
     left: -50px;   
     height: auto;
     width: auto;
-    min-width: 200px;
-    max-height:150px;  
+    min-width: 250px;
+    max-height:100px;  
     overflow: auto;      
 }
 
 .ol-popup-closer {
-    text-decoration: none;
+	border-style: outset;
+	text-decoration: none;
     position: absolute;
     top: 2px;
     right: 8px;
@@ -51,7 +52,7 @@ th, td {
 .ol-attribution a {
     text-decoration: none;
     color: #666;
-    font-family: calibri;
+    font-family: sans-serif;
     font-size: 100%;
 }
 
@@ -67,6 +68,7 @@ th, td {
 #popup-content li {
     margin-bottom:0.25em;
 }
+
 .ol-selectable {
     -webkit-touch-callout: text;
     -webkit-user-select: text;
